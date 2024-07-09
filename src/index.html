@@ -5,57 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>MBOUP</title>
 </head>
-<header>
-    <img src="assets/images/logo2.png" class="img-logo" height="90px" alt="logo">
-</header>
-<body >
-    <div class="green">
-      <div>
-    <h2>
-      Pôle Alimentaire
-    </h2>
-    <h2>
-      Pôle Services
-    </h2>
-    <h2>
-      Pôle Immobilier
-    </h2>
-    <h2>
-      Pôle Transport & Logistique
-    </h2>
-  </div>
-
-  <div class="button-container">
-    <div class="button">PÔLE ALIMENTAIRE</div>
-    <div class="button">PÔLE SERVICES</div>
-    <div class="button">PÔLE IMMOBILIER</div>
-    <div class="button">PÔLE TRANSPORT & LOGISTIQUE</div>
-</div>
-
-  <!-- <div id="carouselExampleInterval" class="carousel slide img-curosselle" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="assets/images/cafe.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="assets/images/food.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/work.jpg" class="d-block w-100" alt="...">
-      </div>
+<body>
+    <header>
+        <img src="assets/images/logo.png" class="img-logo" height="90px" alt="logo">
+    </header>
+    <div class="button-container text-uppercase">
+        <h2 class="button">Pôle Alimentaire</h2>
+        <h2 class="button">Pôle Services</h2>
+        <h2 class="button">Pôle Immobilier</h2>
+        <h2 class="button">Pôle Transport & Logistique</h2>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div> --> 
-  
+    <br>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner px-lg-5">
+            <div class="carousel-item active">
+                <img src="assets/images/alimentaire.jpg" class="d-block w-100 img-carousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="box-color">PÔLE ALIMENTAIRE</h5>
+                    <p class="box-color">2MAD food services</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/services.jpg" class="d-block w-100 img-carousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="box-color">PÔLE SERVICES</h5>
+                    <p class="box-color">M.A Consulting</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/immobilier.jpg" class="d-block w-100 img-carousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="box-color">PÔLE IMMOBILIER</h5>
+                    <p class="box-color">SEY DIOP BUILDING SDB</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/logistique.jpg" class="d-block w-100 img-carousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="box-color">PÔLE TRANSPORT & LOGISTIQUE</h5>
+                    <p class="box-color">MM MBOUP MANUTENTION</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-12 mb-4 order-md-1">
+                <video controls class="home-video w-100">
+                    <source src="/media/cc0-videos/flower.webm" type="video/webm">
+                    <source src="/media/cc0-videos/flower.mp4" type="video/mp4">
+                    Download the
+                    <a href="/media/cc0-videos/flower.webm">WEBM</a>
+                    or
+                    <a href="/media/cc0-videos/flower.mp4">MP4</a>
+                    video.
+                </video>
+            </div>
+            <div class="col-lg-6 col-md-12 order-md-2">
+                <h3 class="text-center">Valeurs de l'entreprise et mots du directeur</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam, laudantium repudiandae, maxime officiis consequatur nihil ex rem optio quas necessitatibus sint quaerat, minus quidem cum impedit placeat id eum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam, laudantium repudiandae, maxime officiis consequatur nihil ex rem optio quas necessitatibus sint quaerat, minus quidem cum impedit placeat id eum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam, laudantium repudiandae, maxime officiis consequatur nihil ex rem optio quas necessitatibus sint quaerat, minus quidem cum impedit placeat id eum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam, laudantium repudiandae, maxime officiis consequatur nihil ex rem optio quas necessitatibus sint quaerat, minus quidem cum impedit placeat id eum.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2 class="center">Nos Projets Récents</h2>
+    <div class="card-group pt-4">
+        <div class="card mx-2">
+            <img src="assets/images/projet-alimentaire.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Projet Alimentaire</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi sed rem ab, at eveniet velit?</p>
+            </div>
+        </div>
+        <div class="card mx-2">
+            <img src="assets/images/projet-immobilier.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Projet Immobilier</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis eos totam sapiente delectus ex.</p>
+            </div>
+        </div>
+        <div class="card mx-2">
+            <img src="assets/images/projet-transport.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-center">Projet Transport Logistique</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ex tempore dolorem odio neque. Nihil.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card text-center pt-4">
+        <div class="contact-form">
+            <h2>Contactez-nous</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" rows="4" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+        <p>&copy; 2024 MBOUP Corporation. Tous droits réservés.</p>
+    </div>
+    <br>
     <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
