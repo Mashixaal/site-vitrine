@@ -30,6 +30,7 @@
 
 .img-carousel {
     object-fit: cover;
+    height: calc(100vh / 3);
 }
 
 .container {
@@ -72,6 +73,7 @@ body {
 
 .card-img-top:hover {
     transform: scale(1.1);
+
 }
 
 footer {
